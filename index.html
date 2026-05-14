@@ -21,11 +21,21 @@
     </select>
   </section>
 
+  <section id="priceChartSection" style="display:none">
+    <h2>📈 Tren Harga XMAX</h2>
+    <p id="chartMeta">Memuat data...</p>
+    <div style="max-width:800px;margin:0 auto">
+      <canvas id="priceChart"></canvas>
+    </div>
+    <div id="chartSummary"></div>
+  </section>
+
   <main>
     <div id="stats"></div>
     <div id="list"></div>
   </main>
 
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

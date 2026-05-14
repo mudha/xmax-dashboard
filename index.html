@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dashboard XMAX Monitor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🏍️ Dashboard XMAX Monitor</h1>
+    <p id="meta">Memuat data...</p>
+  </header>
+
+  <section class="filters">
+    <input id="q" placeholder="Cari judul/lokasi..." />
+    <select id="source">
+      <option value="">Semua sumber</option>
+      <option value="OLX">OLX</option>
+      <option value="Facebook">Facebook</option>
+    </select>
+  </section>
+
+  <main>
+    <div id="stats"></div>
+    <div id="list"></div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
